@@ -34,9 +34,7 @@ main {
     line-height: 1.6;
 }
 
-/* --- ESTILOS GERAIS (já existentes) --- */
-/* (Mantém o que já tem do menu, reset, etc.) */
-
+/* --- ESTILOS GERAIS --- */
 /* --- ESTILOS DA PÁGINA FORMAÇÃO --- */
 main {
     max-width: 800px;
@@ -62,10 +60,10 @@ p {
 
 /* Destaque para palavras-chave */
 strong {
-    color: #e74c3c; /* Vermelho moderno */
+    color: #e74c3c; 
 }
 
-/* Lista de certificações futuras (se quiser adicionar) */
+/* Lista de certificações futuras */
 .certificacoes {
     margin-top: 2rem;
     padding-left: 1.5rem;
@@ -84,4 +82,79 @@ strong {
     position: absolute;
     left: 0;
     color: #3498db;
+}
+
+/* Estilos para os projetos */
+.projeto {
+    background: white;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.projeto h2 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.projeto a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.em-breve {
+    color: #e74c3c !important;
+    font-style: italic;
+}
+
+.github-link {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.github-link img {
+    vertical-align: middle;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+.outros-contatos {
+    margin-top: 3rem;
+    text-align: center;
 }
